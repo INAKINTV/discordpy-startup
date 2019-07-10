@@ -13,8 +13,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ねこ(ctx):
-    await ctx.send('にゃーん')
+async def 募集(ctx):
+    await ctx.send('参加者を募集します')
 
 
 bot.run(token)
