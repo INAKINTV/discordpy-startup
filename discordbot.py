@@ -11,10 +11,17 @@ token = os.environ['DISCORD_BOT_TOKEN']
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
 
+# サインアップ(未定)
 
+# 募集
 @bot.command()
-async def ねこ(ctx):
-    await ctx.send('にゃーん')
+async def /募集(ctx):
+    await ctx.send('募集を開始します')
 
+    @client.event
+async def hoge()
 
+    
+    
+    
 bot.run(token)
