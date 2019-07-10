@@ -22,4 +22,4 @@ async def 募集(ctx):
     
     
     
-bot.run(token)
+bot.run(NTgwOTQwOTU2Nzg3MDE1NzQw.XSWSYg.w4YtTF5ohWxuLKSFnYeUuLu4H_I)
