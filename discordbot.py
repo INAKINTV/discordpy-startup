@@ -12,12 +12,9 @@ async def on_command_error(ctx, error):
 
 
 @bot.commands
-async def /neko(ctx):
-    await ctx.send('にゃーん')
+async def /ping(ctx):
+    await ctx.send('pong')
     
-    @bot.commands
-async def /ねこ(ctx):
-    await ctx.send('にゃーん')
 
 
 bot.run(NTgwOTQwOTU2Nzg3MDE1NzQw.XSVGFg.2OV_TLJkvJcPZG8tjXI4stGtHcA)
