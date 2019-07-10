@@ -15,11 +15,9 @@ async def on_command_error(ctx, error):
 
 # 募集
 @bot.command()
-async def /募集(ctx):
+async def 募集(ctx):
     await ctx.send('募集を開始します')
 
-    @client.event
-async def hoge()
 
     
     
