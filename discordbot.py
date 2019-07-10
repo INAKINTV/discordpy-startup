@@ -1,3 +1,4 @@
+    
 from discord.ext import commands
 import os
 import traceback
@@ -11,10 +12,9 @@ async def on_command_error(ctx, error):
     await ctx.send(str(error))
 
 
-@bot.commands
-async def /ping(ctx):
-    await ctx.send('pong')
-    
-python bot.py
+@bot.command()
+async def ねこ(ctx):
+    await ctx.send('にゃーん')
 
-bot.run(NTgwOTQwOTU2Nzg3MDE1NzQw.XSVGFg.2OV_TLJkvJcPZG8tjXI4stGtHcA)
+
+bot.run(token)
