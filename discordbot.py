@@ -20,4 +20,4 @@ async def /ねこ(ctx):
     await ctx.send('にゃーん')
 
 
-slient.run(token)
+bot.run(token)
