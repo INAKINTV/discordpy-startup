@@ -15,6 +15,6 @@ async def on_command_error(ctx, error):
 async def /ping(ctx):
     await ctx.send('pong')
     
-
+python bot.py
 
 bot.run(NTgwOTQwOTU2Nzg3MDE1NzQw.XSVGFg.2OV_TLJkvJcPZG8tjXI4stGtHcA)
