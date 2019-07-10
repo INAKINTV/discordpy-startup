@@ -18,6 +18,6 @@ async def /neko(ctx):
     @bot.commands
 async def /ねこ(ctx):
     await ctx.send('にゃーん')
-$ python3 discordbot.py
+
 
 slient.run(token)
