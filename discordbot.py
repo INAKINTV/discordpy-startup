@@ -11,11 +11,11 @@ async def on_command_error(ctx, error):
     await ctx.send(str(error))
 
 
-@bot.command()
+@bot.commands
 async def neko(ctx):
     await ctx.send('にゃーん')
     
-    @bot.command()
+    @bot.commands
 async def ねこ(ctx):
     await ctx.send('にゃーん')
 
