@@ -73,4 +73,4 @@ async def rect(ctx, about = "募集", cnt = 4, settime = 10.0):
 
 
 
-bot.run(token)
+bot.run(NTgwOTQwOTU2Nzg3MDE1NzQw.XSaiPQ.A_9o6rM9Yw3SMYA0vBx51BMDLRI)
