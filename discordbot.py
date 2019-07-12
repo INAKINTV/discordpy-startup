@@ -20,6 +20,6 @@ end
 
 
 
-bot.run(NTgwOTQwOTU2Nzg3MDE1NzQw.XSh_lg.YQJNaoIsJM9FNtX387vKMqt5xZM)
+bot.run(token)
 
 
