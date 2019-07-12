@@ -13,7 +13,7 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def 草(ctx):
     await ctx.send('草')
-end
+
 
 
 
